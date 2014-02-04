@@ -1,0 +1,47 @@
+Source: kwindowsystem
+Section: libs
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
+ extra-cmake-modules, qtbase5-dev, libqt5x11extras-dev, libxcb-keysyms1-dev, libxrender-dev,
+ libxcb-xfixes0-dev, xvfb, xauth, openbox
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem    
+
+Package: libkf5windowsystem-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5windowsystem5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kwindowsystem    
+ The class KWindowSystem provides information about the state of the 
+ window manager and allows asking the window manager to change them 
+ using a more high-level interface than the NETWinInfo/NETRootInfo 
+ lowlevel classes.
+ .
+ Contains development files for kwindowsystem.
+ 
+Package: libkf5windowsystem5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Convenience access to certain properties and features of the window manager. 
+ The class KWindowSystem provides information about the state of the 
+ window manager and allows asking the window manager to change them 
+ using a more high-level interface than the NETWinInfo/NETRootInfo 
+ lowlevel classes.
+
+Package: libkf5windowsystem5-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Multi-Arch: same
+Depends: libkf5windowsystem5 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for kwindowsystem    
+ The class KWindowSystem provides information about the state of the 
+ window manager and allows asking the window manager to change them 
+ using a more high-level interface than the NETWinInfo/NETRootInfo 
+ lowlevel classes.
+  .
+ Contains debug symbols for kwindowsystem       .
