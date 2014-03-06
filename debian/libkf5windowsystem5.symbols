@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64
+# SymbolsHelper-Confirmed: 4.97.0 amd64 i386
 libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN10KKeyServer10xEventToQtEP7_XEventPi@Base 4.96.0
  _ZN10KKeyServer11keyQtToModXEiPj@Base 4.96.0
@@ -73,9 +73,9 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN10NETWinInfoD2Ev@Base 4.96.0
  _ZN10NETWinInfoaSERKS_@Base 4.96.0
  _ZN11KWindowInfoC1ERKS_@Base 4.96.0
- _ZN11KWindowInfoC1Ey6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.96.0
+ (subst)_ZN11KWindowInfoC1E{quintptr}6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.96.0
  _ZN11KWindowInfoC2ERKS_@Base 4.96.0
- _ZN11KWindowInfoC2Ey6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.96.0
+ (subst)_ZN11KWindowInfoC2E{quintptr}6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.96.0
  _ZN11KWindowInfoD1Ev@Base 4.96.0
  _ZN11KWindowInfoD2Ev@Base 4.96.0
  _ZN11KWindowInfoaSERKS_@Base 4.96.0
@@ -136,35 +136,35 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN12KStartupInfo11sendFinishXEP9_XDisplayRK14KStartupInfoId@Base 4.96.0
  _ZN12KStartupInfo11sendFinishXEP9_XDisplayRK14KStartupInfoIdRK16KStartupInfoData@Base 4.96.0
  _ZN12KStartupInfo11sendStartupERK14KStartupInfoIdRK16KStartupInfoData@Base 4.96.0
- _ZN12KStartupInfo12checkStartupEy@Base 4.96.0
- _ZN12KStartupInfo12checkStartupEyR14KStartupInfoId@Base 4.96.0
- _ZN12KStartupInfo12checkStartupEyR14KStartupInfoIdR16KStartupInfoData@Base 4.96.0
- _ZN12KStartupInfo12checkStartupEyR16KStartupInfoData@Base 4.96.0
+ (subst)_ZN12KStartupInfo12checkStartupE{quintptr}@Base 4.96.0
+ (subst)_ZN12KStartupInfo12checkStartupE{quintptr}R14KStartupInfoId@Base 4.96.0
+ (subst)_ZN12KStartupInfo12checkStartupE{quintptr}R14KStartupInfoIdR16KStartupInfoData@Base 4.96.0
+ (subst)_ZN12KStartupInfo12checkStartupE{quintptr}R16KStartupInfoData@Base 4.96.0
  _ZN12KStartupInfo12sendStartupXEP9_XDisplayRK14KStartupInfoIdRK16KStartupInfoData@Base 4.96.0
  _ZN12KStartupInfo12setStartupIdERK10QByteArray@Base 4.96.0
  _ZN12KStartupInfo13gotNewStartupERK14KStartupInfoIdRK16KStartupInfoData@Base 4.96.0
  _ZN12KStartupInfo14silenceStartupEb@Base 4.96.0
  _ZN12KStartupInfo15resetStartupEnvEv@Base 4.96.0
  _ZN12KStartupInfo15setNewStartupIdEP7QWidgetRK10QByteArray@Base 4.96.0
- _ZN12KStartupInfo15windowStartupIdEy@Base 4.96.0
+ (subst)_ZN12KStartupInfo15windowStartupIdE{quintptr}@Base 4.96.0
  _ZN12KStartupInfo16gotRemoveStartupERK14KStartupInfoIdRK16KStartupInfoData@Base 4.96.0
  _ZN12KStartupInfo16gotStartupChangeERK14KStartupInfoIdRK16KStartupInfoData@Base 4.96.0
  _ZN12KStartupInfo16staticMetaObjectE@Base 4.96.0
  _ZN12KStartupInfo18createNewStartupIdEv@Base 4.96.0
- _ZN12KStartupInfo18setWindowStartupIdEyRK10QByteArray@Base 4.96.0
+ (subst)_ZN12KStartupInfo18setWindowStartupIdE{quintptr}RK10QByteArray@Base 4.96.0
  _ZN12KStartupInfo19currentStartupIdEnvEv@Base 4.96.0
  _ZN12KStartupInfo27handleAutoAppStartedSendingEv@Base 4.96.0
  _ZN12KStartupInfo28disableAutoAppStartedSendingEb@Base 4.96.0
  _ZN12KStartupInfo7Private11find_wclassERK10QByteArrayS3_P14KStartupInfoIdP16KStartupInfoData@Base 4.96.0
  _ZN12KStartupInfo7Private11got_messageERK7QString@Base 4.96.0
- _ZN12KStartupInfo7Private12window_addedEy@Base 4.96.0
+ (subst)_ZN12KStartupInfo7Private12window_addedE{quintptr}@Base 4.96.0
  _ZN12KStartupInfo7Private16got_startup_infoERK7QStringb@Base 4.96.0
  _ZN12KStartupInfo7Private16startups_cleanupEv@Base 4.96.0
- _ZN12KStartupInfo7Private17slot_window_addedEy@Base 4.96.0
- _ZN12KStartupInfo7Private19get_window_hostnameEy@Base 4.96.0
+ (subst)_ZN12KStartupInfo7Private17slot_window_addedE{quintptr}@Base 4.96.0
+ (subst)_ZN12KStartupInfo7Private19get_window_hostnameE{quintptr}@Base 4.96.0
  _ZN12KStartupInfo7Private19remove_startup_pidsERK14KStartupInfoIdRK16KStartupInfoData@Base 4.96.0
  _ZN12KStartupInfo7Private19remove_startup_pidsERK16KStartupInfoData@Base 4.96.0
- _ZN12KStartupInfo7Private22check_startup_internalEyP14KStartupInfoIdP16KStartupInfoData@Base 4.96.0
+ (subst)_ZN12KStartupInfo7Private22check_startup_internalE{quintptr}P14KStartupInfoIdP16KStartupInfoData@Base 4.96.0
  _ZN12KStartupInfo7Private22clean_all_noncompliantEv@Base 4.96.0
  _ZN12KStartupInfo7Private23got_remove_startup_infoERK7QString@Base 4.96.0
  _ZN12KStartupInfo7Private23startups_cleanup_no_ageEv@Base 4.96.0
@@ -182,70 +182,70 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN12KStartupInfoD0Ev@Base 4.96.0
  _ZN12KStartupInfoD1Ev@Base 4.96.0
  _ZN12KStartupInfoD2Ev@Base 4.96.0
- _ZN13KWindowSystem10clearStateEy6QFlagsIN3NET5StateEE@Base 4.96.0
- _ZN13KWindowSystem10windowInfoEy6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.97.0
+ (subst)_ZN13KWindowSystem10clearStateE{quintptr}6QFlagsIN3NET5StateEE@Base 4.96.0
+ (subst)_ZN13KWindowSystem10windowInfoE{quintptr}6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.97.0
  _ZN13KWindowSystem11desktopNameEi@Base 4.96.0
- _ZN13KWindowSystem11groupLeaderEy@Base 4.96.0
- _ZN13KWindowSystem11lowerWindowEy@Base 4.96.0
+ (subst)_ZN13KWindowSystem11groupLeaderE{quintptr}@Base 4.96.0
+ (subst)_ZN13KWindowSystem11lowerWindowE{quintptr}@Base 4.96.0
  _ZN13KWindowSystem11mapViewportEv@Base 4.96.0
  _ZN13KWindowSystem11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN13KWindowSystem11qt_metacastEPKc@Base 4.96.0
- _ZN13KWindowSystem11raiseWindowEy@Base 4.96.0
- _ZN13KWindowSystem11setUserTimeEyl@Base 4.96.0
- _ZN13KWindowSystem11windowAddedEy@Base 4.96.0
+ (subst)_ZN13KWindowSystem11raiseWindowE{quintptr}@Base 4.96.0
+ (subst)_ZN13KWindowSystem11setUserTimeE{quintptr}l@Base 4.96.0
+ (subst)_ZN13KWindowSystem11windowAddedE{quintptr}@Base 4.96.0
  _ZN13KWindowSystem12activeWindowEv@Base 4.96.0
- _ZN13KWindowSystem12setOnDesktopEyi@Base 4.96.0
+ (subst)_ZN13KWindowSystem12setOnDesktopE{quintptr}i@Base 4.96.0
  _ZN13KWindowSystem12strutChangedEv@Base 4.96.0
- _ZN13KWindowSystem12transientForEy@Base 4.96.0
+ (subst)_ZN13KWindowSystem12transientForE{quintptr}@Base 4.96.0
  _ZN13KWindowSystem13connectNotifyERK11QMetaMethod@Base 4.96.0
- _ZN13KWindowSystem13setMainWindowEP7QWidgety@Base 4.96.0
+ (subst)_ZN13KWindowSystem13setMainWindowEP7QWidget{quintptr}@Base 4.96.0
  _ZN13KWindowSystem13stackingOrderEv@Base 4.96.0
- _ZN13KWindowSystem13windowChangedEy@Base 4.96.0
- _ZN13KWindowSystem13windowChangedEyPKm@Base 4.96.0
- _ZN13KWindowSystem13windowChangedEyj@Base 4.96.0
- _ZN13KWindowSystem13windowRemovedEy@Base 4.96.0
- _ZN13KWindowSystem14activateWindowEyl@Base 4.96.0
+ (subst)_ZN13KWindowSystem13windowChangedE{quintptr}@Base 4.96.0
+ (subst)_ZN13KWindowSystem13windowChangedE{quintptr}PKm@Base 4.96.0
+ (subst)_ZN13KWindowSystem13windowChangedE{quintptr}j@Base 4.96.0
+ (subst)_ZN13KWindowSystem13windowRemovedE{quintptr}@Base 4.96.0
+ (subst)_ZN13KWindowSystem14activateWindowE{quintptr}l@Base 4.96.0
  _ZN13KWindowSystem14currentDesktopEv@Base 4.96.0
- _ZN13KWindowSystem14minimizeWindowEyb@Base 4.96.0
+ (subst)_ZN13KWindowSystem14minimizeWindowE{quintptr}b@Base 4.96.0
  _ZN13KWindowSystem14setDesktopNameEiRK7QString@Base 4.96.0
  _ZN13KWindowSystem14showingDesktopEv@Base 4.96.0
- _ZN13KWindowSystem15demandAttentionEyb@Base 4.96.0
+ (subst)_ZN13KWindowSystem15demandAttentionE{quintptr}b@Base 4.96.0
  _ZN13KWindowSystem15workAreaChangedEv@Base 4.96.0
  _ZN13KWindowSystem16numberOfDesktopsEv@Base 4.96.0
- _ZN13KWindowSystem16readNamePropertyEym@Base 4.96.0
- _ZN13KWindowSystem16setExtendedStrutEyiiiiiiiiiiii@Base 4.96.0
- _ZN13KWindowSystem16setOnAllDesktopsEyb@Base 4.96.0
+ (subst)_ZN13KWindowSystem16readNamePropertyE{quintptr}m@Base 4.96.0
+ (subst)_ZN13KWindowSystem16setExtendedStrutE{quintptr}iiiiiiiiiiii@Base 4.96.0
+ (subst)_ZN13KWindowSystem16setOnAllDesktopsE{quintptr}b@Base 4.96.0
  _ZN13KWindowSystem16staticMetaObjectE@Base 4.96.0
- _ZN13KWindowSystem16unminimizeWindowEyb@Base 4.96.0
+ (subst)_ZN13KWindowSystem16unminimizeWindowE{quintptr}b@Base 4.96.0
  _ZN13KWindowSystem17compositingActiveEv@Base 4.96.0
  _ZN13KWindowSystem17desktopToViewportEib@Base 4.96.0
- _ZN13KWindowSystem17forceActiveWindowEyl@Base 4.96.0
+ (subst)_ZN13KWindowSystem17forceActiveWindowE{quintptr}l@Base 4.96.0
  _ZN13KWindowSystem17setCurrentDesktopEi@Base 4.96.0
  _ZN13KWindowSystem17viewportToDesktopERK6QPoint@Base 4.96.0
  _ZN13KWindowSystem18compositingChangedEb@Base 4.96.0
- _ZN13KWindowSystem19activeWindowChangedEy@Base 4.96.0
+ (subst)_ZN13KWindowSystem19activeWindowChangedE{quintptr}@Base 4.96.0
  _ZN13KWindowSystem19desktopNamesChangedEv@Base 4.96.0
  _ZN13KWindowSystem20stackingOrderChangedEv@Base 4.96.0
  _ZN13KWindowSystem21currentDesktopChangedEi@Base 4.96.0
  _ZN13KWindowSystem21showingDesktopChangedEb@Base 4.96.0
- _ZN13KWindowSystem22setBlockingCompositingEyb@Base 4.96.0
+ (subst)_ZN13KWindowSystem22setBlockingCompositingE{quintptr}b@Base 4.96.0
  _ZN13KWindowSystem23allowedActionsSupportedEv@Base 4.96.0
  _ZN13KWindowSystem23numberOfDesktopsChangedEi@Base 4.96.0
  _ZN13KWindowSystem23viewportWindowToDesktopERK5QRect@Base 4.96.0
  _ZN13KWindowSystem26icccmCompliantMappingStateEv@Base 4.96.0
  _ZN13KWindowSystem33constrainViewportRelativePositionERK6QPoint@Base 4.96.0
  _ZN13KWindowSystem36allowExternalProcessWindowActivationEi@Base 4.96.0
- _ZN13KWindowSystem4iconEyiib@Base 4.96.0
- _ZN13KWindowSystem4iconEyiibi@Base 4.96.0
+ (subst)_ZN13KWindowSystem4iconE{quintptr}iib@Base 4.96.0
+ (subst)_ZN13KWindowSystem4iconE{quintptr}iibi@Base 4.96.0
  _ZN13KWindowSystem4selfEv@Base 4.96.0
  _ZN13KWindowSystem6d_funcEv@Base 4.96.0
- _ZN13KWindowSystem6hasWIdEy@Base 4.96.0
- _ZN13KWindowSystem7setTypeEyN3NET10WindowTypeE@Base 4.96.0
+ (subst)_ZN13KWindowSystem6hasWIdE{quintptr}@Base 4.96.0
+ (subst)_ZN13KWindowSystem7setTypeE{quintptr}N3NET10WindowTypeE@Base 4.96.0
  _ZN13KWindowSystem7windowsEv@Base 4.96.0
- _ZN13KWindowSystem8setIconsEyRK7QPixmapS2_@Base 4.96.0
- _ZN13KWindowSystem8setStateEy6QFlagsIN3NET5StateEE@Base 4.96.0
- _ZN13KWindowSystem8setStrutEyiiii@Base 4.96.0
- _ZN13KWindowSystem8workAreaERK5QListIyEi@Base 4.96.0
+ (subst)_ZN13KWindowSystem8setIconsE{quintptr}RK7QPixmapS2_@Base 4.96.0
+ (subst)_ZN13KWindowSystem8setStateE{quintptr}6QFlagsIN3NET5StateEE@Base 4.96.0
+ (subst)_ZN13KWindowSystem8setStrutE{quintptr}iiii@Base 4.96.0
+ (subst)_ZN13KWindowSystem8workAreaERK5QListI{quintptr}Ei@Base 4.96.0
  _ZN13KWindowSystem8workAreaEi@Base 4.96.0
  _ZN13KWindowSystemD0Ev@Base 4.96.0
  _ZN13KWindowSystemD1Ev@Base 4.96.0
@@ -263,16 +263,16 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN14KUserTimestamp13userTimestampEv@Base 4.96.0
  _ZN14KUserTimestamp19updateUserTimestampEm@Base 4.96.0
  _ZN14KWindowEffects11slideWindowEP7QWidgetNS_17SlideFromLocationE@Base 4.96.0
- _ZN14KWindowEffects11slideWindowEyNS_17SlideFromLocationEi@Base 4.96.0
- _ZN14KWindowEffects11windowSizesERK5QListIyE@Base 4.96.0
- _ZN14KWindowEffects14presentWindowsEyRK5QListIyE@Base 4.96.0
- _ZN14KWindowEffects14presentWindowsEyi@Base 4.96.0
- _ZN14KWindowEffects15markAsDashboardEy@Base 4.96.0
- _ZN14KWindowEffects16enableBlurBehindEybRK7QRegion@Base 4.96.0
- _ZN14KWindowEffects16highlightWindowsEyRK5QListIyE@Base 4.96.0
+ (subst)_ZN14KWindowEffects11slideWindowE{quintptr}NS_17SlideFromLocationEi@Base 4.96.0
+ (subst)_ZN14KWindowEffects11windowSizesERK5QListI{quintptr}E@Base 4.96.0
+ (subst)_ZN14KWindowEffects14presentWindowsE{quintptr}RK5QListI{quintptr}E@Base 4.96.0
+ (subst)_ZN14KWindowEffects14presentWindowsE{quintptr}i@Base 4.96.0
+ (subst)_ZN14KWindowEffects15markAsDashboardE{quintptr}@Base 4.96.0
+ (subst)_ZN14KWindowEffects16enableBlurBehindE{quintptr}bRK7QRegion@Base 4.96.0
+ (subst)_ZN14KWindowEffects16highlightWindowsE{quintptr}RK5QListI{quintptr}E@Base 4.96.0
  _ZN14KWindowEffects17isEffectAvailableENS_6EffectE@Base 4.96.0
- _ZN14KWindowEffects20showWindowThumbnailsEyRK5QListIyERKS0_I5QRectE@Base 4.96.0
- _ZN14KWindowEffects24enableBackgroundContrastEybdddRK7QRegion@Base 4.96.0
+ (subst)_ZN14KWindowEffects20showWindowThumbnailsE{quintptr}RK5QListI{quintptr}ERKS0_I5QRectE@Base 4.96.0
+ (subst)_ZN14KWindowEffects24enableBackgroundContrastE{quintptr}bdddRK7QRegion@Base 4.96.0
  _ZN15KSelectionOwner10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN15KSelectionOwner11filterEventEPv@Base 4.96.0
  _ZN15KSelectionOwner11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -313,7 +313,7 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN16KStartupInfoData11setHostnameERK10QByteArray@Base 4.96.0
  _ZN16KStartupInfoData11setXineramaEi@Base 4.96.0
  _ZN16KStartupInfoData12setTimestampEm@Base 4.96.0
- _ZN16KStartupInfoData13setLaunchedByEy@Base 4.96.0
+ (subst)_ZN16KStartupInfoData13setLaunchedByE{quintptr}@Base 4.96.0
  _ZN16KStartupInfoData14setDescriptionERK7QString@Base 4.96.0
  _ZN16KStartupInfoData16setApplicationIdERK7QString@Base 4.96.0
  _ZN16KStartupInfoData6addPidEi@Base 4.96.0
