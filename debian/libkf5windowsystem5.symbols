@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64 i386
 libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN10KKeyServer10xEventToQtEP7_XEventPi@Base 4.96.0
  _ZN10KKeyServer11keyQtToModXEiPj@Base 4.96.0
@@ -199,7 +199,7 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN13KWindowSystem13connectNotifyERK11QMetaMethod@Base 4.96.0
  (subst)_ZN13KWindowSystem13setMainWindowEP7QWidget{quintptr}@Base 4.96.0
  _ZN13KWindowSystem13stackingOrderEv@Base 4.96.0
- _ZN13KWindowSystem13windowChangedEy6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.98.0
+ (subst)_ZN13KWindowSystem13windowChangedE{quintptr}6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.98.0
  (subst)_ZN13KWindowSystem13windowChangedE{quintptr}@Base 4.96.0
  (subst)_ZN13KWindowSystem13windowChangedE{quintptr}PKm@Base 4.96.0
  (subst)_ZN13KWindowSystem13windowChangedE{quintptr}j@Base 4.96.0
