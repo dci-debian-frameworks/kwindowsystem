@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64 i386
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN10KKeyServer10xEventToQtEP7_XEventPi@Base 4.96.0
  _ZN10KKeyServer11keyQtToModXEiPj@Base 4.96.0
@@ -55,18 +55,19 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN10NETWinInfo21setFullscreenMonitorsE21NETFullscreenMonitors@Base 4.96.0
  _ZN10NETWinInfo22setBlockingCompositingEb@Base 4.96.0
  _ZN10NETWinInfo5eventEP19xcb_generic_event_t@Base 4.96.0
+ _ZN10NETWinInfo5eventEP19xcb_generic_event_tP6QFlagsIN3NET8PropertyEEPS2_INS3_9Property2EE@Base 4.98.0
  _ZN10NETWinInfo5eventEP19xcb_generic_event_tPmi@Base 4.96.0
  _ZN10NETWinInfo6setPidEi@Base 4.96.0
- _ZN10NETWinInfo6updateEPKm@Base 4.96.0
+ _ZN10NETWinInfo6updateE6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.98.0
  _ZN10NETWinInfo7setIconE7NETIconb@Base 4.96.0
  _ZN10NETWinInfo7setNameEPKc@Base 4.96.0
  _ZN10NETWinInfo8setStateE6QFlagsIN3NET5StateEES3_@Base 4.96.0
  _ZN10NETWinInfo8setStrutE8NETStrut@Base 4.96.0
  _ZN10NETWinInfoC1EP16xcb_connection_tjj6QFlagsIN3NET8PropertyEENS3_4RoleE@Base 4.96.0
- _ZN10NETWinInfoC1EP16xcb_connection_tjjPKmiN3NET4RoleE@Base 4.96.0
+ _ZN10NETWinInfoC1EP16xcb_connection_tjj6QFlagsIN3NET8PropertyEES2_INS3_9Property2EENS3_4RoleE@Base 4.98.0
  _ZN10NETWinInfoC1ERKS_@Base 4.96.0
  _ZN10NETWinInfoC2EP16xcb_connection_tjj6QFlagsIN3NET8PropertyEENS3_4RoleE@Base 4.96.0
- _ZN10NETWinInfoC2EP16xcb_connection_tjjPKmiN3NET4RoleE@Base 4.96.0
+ _ZN10NETWinInfoC2EP16xcb_connection_tjj6QFlagsIN3NET8PropertyEES2_INS3_9Property2EENS3_4RoleE@Base 4.98.0
  _ZN10NETWinInfoC2ERKS_@Base 4.96.0
  _ZN10NETWinInfoD0Ev@Base 4.96.0
  _ZN10NETWinInfoD1Ev@Base 4.96.0
@@ -86,7 +87,6 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN11NETRootInfo12setSupportedEN3NET8PropertyEb@Base 4.96.0
  _ZN11NETRootInfo12setSupportedEN3NET9Property2Eb@Base 4.96.0
  _ZN11NETRootInfo12setSupportedEv@Base 4.96.0
- _ZN11NETRootInfo12takeActivityEjjl@Base 4.96.0
  _ZN11NETRootInfo12virtual_hookEiPv@Base 4.96.0
  _ZN11NETRootInfo13setClientListEPKjj@Base 4.96.0
  _ZN11NETRootInfo14restackRequestEjN3NET13RequestSourceEjij@Base 4.96.0
@@ -107,17 +107,18 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN11NETRootInfo23moveResizeWindowRequestEjiiiii@Base 4.96.0
  _ZN11NETRootInfo25updateSupportedPropertiesEj@Base 4.96.0
  _ZN11NETRootInfo5eventEP19xcb_generic_event_t@Base 4.96.0
+ _ZN11NETRootInfo5eventEP19xcb_generic_event_tP6QFlagsIN3NET8PropertyEEPS2_INS3_9Property2EE@Base 4.98.0
  _ZN11NETRootInfo5eventEP19xcb_generic_event_tPmi@Base 4.96.0
- _ZN11NETRootInfo6updateEPKm@Base 4.96.0
+ _ZN11NETRootInfo6updateE6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.98.0
  _ZN11NETRootInfo8activateEv@Base 4.96.0
  _ZN11NETRootInfo8sendPingEjj@Base 4.96.0
+ _ZN11NETRootInfoC1EP16xcb_connection_t6QFlagsIN3NET8PropertyEES2_INS3_9Property2EEib@Base 4.98.0
  _ZN11NETRootInfoC1EP16xcb_connection_t6QFlagsIN3NET8PropertyEEib@Base 4.96.0
- _ZN11NETRootInfoC1EP16xcb_connection_tPKmiib@Base 4.96.0
- _ZN11NETRootInfoC1EP16xcb_connection_tjPKcPKmiib@Base 4.96.0
+ _ZN11NETRootInfoC1EP16xcb_connection_tjPKc6QFlagsIN3NET8PropertyEES4_INS5_14WindowTypeMaskEES4_INS5_5StateEES4_INS5_9Property2EES4_INS5_6ActionEEib@Base 4.98.0
  _ZN11NETRootInfoC1ERKS_@Base 4.96.0
+ _ZN11NETRootInfoC2EP16xcb_connection_t6QFlagsIN3NET8PropertyEES2_INS3_9Property2EEib@Base 4.98.0
  _ZN11NETRootInfoC2EP16xcb_connection_t6QFlagsIN3NET8PropertyEEib@Base 4.96.0
- _ZN11NETRootInfoC2EP16xcb_connection_tPKmiib@Base 4.96.0
- _ZN11NETRootInfoC2EP16xcb_connection_tjPKcPKmiib@Base 4.96.0
+ _ZN11NETRootInfoC2EP16xcb_connection_tjPKc6QFlagsIN3NET8PropertyEES4_INS5_14WindowTypeMaskEES4_INS5_5StateEES4_INS5_9Property2EES4_INS5_6ActionEEib@Base 4.98.0
  _ZN11NETRootInfoC2ERKS_@Base 4.96.0
  _ZN11NETRootInfoD0Ev@Base 4.96.0
  _ZN11NETRootInfoD1Ev@Base 4.96.0
@@ -153,8 +154,6 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN12KStartupInfo18createNewStartupIdEv@Base 4.96.0
  (subst)_ZN12KStartupInfo18setWindowStartupIdE{quintptr}RK10QByteArray@Base 4.96.0
  _ZN12KStartupInfo19currentStartupIdEnvEv@Base 4.96.0
- _ZN12KStartupInfo27handleAutoAppStartedSendingEv@Base 4.96.0
- _ZN12KStartupInfo28disableAutoAppStartedSendingEb@Base 4.96.0
  _ZN12KStartupInfo7Private11find_wclassERK10QByteArrayS3_P14KStartupInfoIdP16KStartupInfoData@Base 4.96.0
  _ZN12KStartupInfo7Private11got_messageERK7QString@Base 4.96.0
  (subst)_ZN12KStartupInfo7Private12window_addedE{quintptr}@Base 4.96.0
@@ -200,6 +199,7 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN13KWindowSystem13connectNotifyERK11QMetaMethod@Base 4.96.0
  (subst)_ZN13KWindowSystem13setMainWindowEP7QWidget{quintptr}@Base 4.96.0
  _ZN13KWindowSystem13stackingOrderEv@Base 4.96.0
+ _ZN13KWindowSystem13windowChangedEy6QFlagsIN3NET8PropertyEES0_INS1_9Property2EE@Base 4.98.0
  (subst)_ZN13KWindowSystem13windowChangedE{quintptr}@Base 4.96.0
  (subst)_ZN13KWindowSystem13windowChangedE{quintptr}PKm@Base 4.96.0
  (subst)_ZN13KWindowSystem13windowChangedE{quintptr}j@Base 4.96.0
@@ -271,7 +271,6 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  (subst)_ZN14KWindowEffects16enableBlurBehindE{quintptr}bRK7QRegion@Base 4.96.0
  (subst)_ZN14KWindowEffects16highlightWindowsE{quintptr}RK5QListI{quintptr}E@Base 4.96.0
  _ZN14KWindowEffects17isEffectAvailableENS_6EffectE@Base 4.96.0
- (subst)_ZN14KWindowEffects20showWindowThumbnailsE{quintptr}RK5QListI{quintptr}ERKS0_I5QRectE@Base 4.96.0
  (subst)_ZN14KWindowEffects24enableBackgroundContrastE{quintptr}bdddRK7QRegion@Base 4.96.0
  _ZN15KSelectionOwner10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN15KSelectionOwner11filterEventEPv@Base 4.96.0
@@ -379,6 +378,7 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZNK10NETWinInfo15windowClassNameEv@Base 4.96.0
  _ZNK10NETWinInfo16passedPropertiesEv@Base 4.96.0
  _ZNK10NETWinInfo16windowClassClassEv@Base 4.96.0
+ _ZNK10NETWinInfo17passedProperties2Ev@Base 4.98.0
  _ZNK10NETWinInfo18fullscreenMonitorsEv@Base 4.96.0
  _ZNK10NETWinInfo21isBlockingCompositingEv@Base 4.96.0
  _ZNK10NETWinInfo3pidEv@Base 4.96.0
@@ -428,7 +428,9 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZNK11NETRootInfo11isSupportedEN3NET8PropertyE@Base 4.96.0
  _ZNK11NETRootInfo11isSupportedEN3NET9Property2E@Base 4.96.0
  _ZNK11NETRootInfo12activeWindowEv@Base 4.96.0
+ _ZNK11NETRootInfo12passedStatesEv@Base 4.98.0
  _ZNK11NETRootInfo12virtualRootsEv@Base 4.96.0
+ _ZNK11NETRootInfo13passedActionsEv@Base 4.98.0
  _ZNK11NETRootInfo13supportWindowEv@Base 4.96.0
  _ZNK11NETRootInfo13xcbConnectionEv@Base 4.96.0
  _ZNK11NETRootInfo14currentDesktopEb@Base 4.96.0
@@ -436,12 +438,18 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZNK11NETRootInfo15clientListCountEv@Base 4.96.0
  _ZNK11NETRootInfo15desktopGeometryEv@Base 4.96.0
  _ZNK11NETRootInfo15desktopViewportEi@Base 4.96.0
+ _ZNK11NETRootInfo15supportedStatesEv@Base 4.98.0
  _ZNK11NETRootInfo16numberOfDesktopsEb@Base 4.96.0
  _ZNK11NETRootInfo16passedPropertiesEv@Base 4.96.0
+ _ZNK11NETRootInfo16supportedActionsEv@Base 4.98.0
+ _ZNK11NETRootInfo17passedProperties2Ev@Base 4.98.0
+ _ZNK11NETRootInfo17passedWindowTypesEv@Base 4.98.0
  _ZNK11NETRootInfo17virtualRootsCountEv@Base 4.96.0
  _ZNK11NETRootInfo18clientListStackingEv@Base 4.96.0
  _ZNK11NETRootInfo19desktopLayoutCornerEv@Base 4.96.0
  _ZNK11NETRootInfo19supportedPropertiesEv@Base 4.96.0
+ _ZNK11NETRootInfo20supportedProperties2Ev@Base 4.98.0
+ _ZNK11NETRootInfo20supportedWindowTypesEv@Base 4.98.0
  _ZNK11NETRootInfo23clientListStackingCountEv@Base 4.96.0
  _ZNK11NETRootInfo24desktopLayoutColumnsRowsEv@Base 4.96.0
  _ZNK11NETRootInfo24desktopLayoutOrientationEv@Base 4.96.0
