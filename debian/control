@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.11), qtbase5-dev, libqt5x11extras-dev, libxcb-keysyms1-dev, libxrender-dev,
+ extra-cmake-modules (>= 0.0.11), qtbase5-dev, libqt5x11extras5-dev, libxcb-keysyms1-dev, libxrender-dev,
  libxcb-xfixes0-dev, xvfb, xauth, openbox, pkg-config
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem    
