@@ -5,7 +5,8 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  extra-cmake-modules (>= 0.0.13), qtbase5-dev, libqt5x11extras5-dev, libxcb-keysyms1-dev, libxrender-dev,
- libxcb-xfixes0-dev, xvfb, xauth, openbox, pkg-config
+ libxcb-xfixes0-dev, xvfb, xauth, openbox, pkg-config,
+ qttools5-dev, qttools5-dev-tools, qt5-default
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem    
 
@@ -25,12 +26,25 @@ Package: libkf5windowsystem5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkf5windowsystem5-data (= ${binary:Version})
+Description: Convenience access to certain properties and features of the window manager. 
+ The class KWindowSystem provides information about the state of the 
+ window manager and allows asking the window manager to change them 
+ using a more high-level interface than the NETWinInfo/NETRootInfo 
+ low level classes.
+
+Package: libkf5windowsystem5-data
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Convenience access to certain properties and features of the window manager. 
  The class KWindowSystem provides information about the state of the 
  window manager and allows asking the window manager to change them 
  using a more high-level interface than the NETWinInfo/NETRootInfo 
- lowlevel classes.
+ low level classes.
+ .
+ This package contains the translations.
 
 Package: libkf5windowsystem5-dbg
 Priority: extra
@@ -42,6 +56,6 @@ Description: debug symbols for kwindowsystem
  The class KWindowSystem provides information about the state of the 
  window manager and allows asking the window manager to change them 
  using a more high-level interface than the NETWinInfo/NETRootInfo 
- lowlevel classes.
+ low level classes.
   .
- Contains debug symbols for kwindowsystem       .
+ Contains debug symbols for kwindowsystem.
