@@ -37,8 +37,8 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5windowsystem5-data
-Architecture: any
-Multi-Arch: same
+Architecture: all
+Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Convenience access to certain properties and features of the window manager.
