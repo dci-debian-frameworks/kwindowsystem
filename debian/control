@@ -22,8 +22,19 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
 
-Package: libkf5windowsystem5
+Package: libkf5windowsystem-dev
 Section: libdevel
+Architecture: any
+Depends: libkf5windowsystem5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kwindowsystem
+ The class KWindowSystem provides information about the state of the
+ window manager and allows asking the window manager to change them
+ using a more high-level interface than the NETWinInfo/NETRootInfo
+ lowlevel classes.
+ .
+ Contains development files for kwindowsystem.
+
+Package: libkf5windowsystem5
 Architecture: any
 Depends: libkf5windowsystem5-data (= ${binary:Version}),
          ${misc:Depends},
