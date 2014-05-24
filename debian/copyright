@@ -62,8 +62,8 @@ License: LGPL-2.1+ accepted by the membership of KDE e.V.
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2". 
- 
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
 Files: src/fixx11h.h
        src/kselectionowner.cpp
        src/kselectionowner.h
@@ -103,9 +103,9 @@ License: MIT
   | WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
   | FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
   | OTHER DEALINGS IN THE SOFTWARE.
- 
-Files: debian/*       
-Copyright:2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	    
+
+Files: debian/*
+Copyright:2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
