@@ -25,7 +25,8 @@ Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
 Package: libkf5windowsystem-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5windowsystem5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5windowsystem5 (= ${binary:Version}), ${misc:Depends},
+ qtbase5-dev
 Description: development files for kwindowsystem
  The class KWindowSystem provides information about the state of the
  window manager and allows asking the window manager to change them
