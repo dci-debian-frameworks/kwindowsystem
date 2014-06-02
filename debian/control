@@ -5,7 +5,7 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.13),
+               extra-cmake-modules (>= 0.0.14),
                libqt5x11extras5-dev,
                libxcb-keysyms1-dev,
                libxcb-xfixes0-dev,
@@ -25,8 +25,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
 Package: libkf5windowsystem-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5windowsystem5 (= ${binary:Version}), ${misc:Depends},
- qtbase5-dev
+Depends: libkf5windowsystem5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: development files for kwindowsystem
  The class KWindowSystem provides information about the state of the
  window manager and allows asking the window manager to change them
