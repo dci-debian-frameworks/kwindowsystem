@@ -1,5 +1,9 @@
 kwindowsystem (4.99.0-0ubuntu1) trusty; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
+  * Install *.pri files in arch dependent path.
+
+  [ Jonathan Riddell ]
   * New upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:54 +0100

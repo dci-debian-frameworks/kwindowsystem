@@ -2,4 +2,4 @@
 usr/include/KF5/
 usr/lib/*/cmake/KF5WindowSystem/
 usr/lib/*/libKF5WindowSystem.so
-usr/share/qt5/mkspecs/modules/qt_KWindowSystem.pri
+usr/lib/*/qt5/mkspecs/modules/*
