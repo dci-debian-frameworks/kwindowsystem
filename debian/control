@@ -36,7 +36,7 @@ Description: development files for kwindowsystem
 
 Package: libkf5windowsystem5
 Architecture: any
-Depends: libkf5windowsystem5-data (= ${binary:Version}),
+Depends: libkf5windowsystem5-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Convenience access to certain properties and features of the window manager.
