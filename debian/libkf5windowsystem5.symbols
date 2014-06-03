@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64 i386
 libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN10KKeyServer10xEventToQtEP7_XEventPi@Base 4.96.0
  _ZN10KKeyServer11keyQtToModXEiPj@Base 4.96.0
@@ -114,11 +114,9 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN11NETRootInfo8activateEv@Base 4.96.0
  _ZN11NETRootInfo8sendPingEjj@Base 4.96.0
  _ZN11NETRootInfoC1EP16xcb_connection_t6QFlagsIN3NET8PropertyEES2_INS3_9Property2EEib@Base 4.98.0
- _ZN11NETRootInfoC1EP16xcb_connection_t6QFlagsIN3NET8PropertyEEib@Base 4.96.0
  _ZN11NETRootInfoC1EP16xcb_connection_tjPKc6QFlagsIN3NET8PropertyEES4_INS5_14WindowTypeMaskEES4_INS5_5StateEES4_INS5_9Property2EES4_INS5_6ActionEEib@Base 4.98.0
  _ZN11NETRootInfoC1ERKS_@Base 4.96.0
  _ZN11NETRootInfoC2EP16xcb_connection_t6QFlagsIN3NET8PropertyEES2_INS3_9Property2EEib@Base 4.98.0
- _ZN11NETRootInfoC2EP16xcb_connection_t6QFlagsIN3NET8PropertyEEib@Base 4.96.0
  _ZN11NETRootInfoC2EP16xcb_connection_tjPKc6QFlagsIN3NET8PropertyEES4_INS5_14WindowTypeMaskEES4_INS5_5StateEES4_INS5_9Property2EES4_INS5_6ActionEEib@Base 4.98.0
  _ZN11NETRootInfoC2ERKS_@Base 4.96.0
  _ZN11NETRootInfoD0Ev@Base 4.96.0
@@ -207,6 +205,7 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  (subst)_ZN13KWindowSystem13windowRemovedE{quintptr}@Base 4.96.0
  (subst)_ZN13KWindowSystem14activateWindowE{quintptr}l@Base 4.96.0
  _ZN13KWindowSystem14currentDesktopEv@Base 4.96.0
+ (subst)_ZN13KWindowSystem14minimizeWindowE{quintptr}@Base 4.100.0
  (subst)_ZN13KWindowSystem14minimizeWindowE{quintptr}b@Base 4.96.0
  _ZN13KWindowSystem14setDesktopNameEiRK7QString@Base 4.96.0
  _ZN13KWindowSystem14showingDesktopEv@Base 4.96.0
@@ -217,6 +216,7 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  (subst)_ZN13KWindowSystem16setExtendedStrutE{quintptr}iiiiiiiiiiii@Base 4.96.0
  (subst)_ZN13KWindowSystem16setOnAllDesktopsE{quintptr}b@Base 4.96.0
  _ZN13KWindowSystem16staticMetaObjectE@Base 4.96.0
+ (subst)_ZN13KWindowSystem16unminimizeWindowE{quintptr}@Base 4.100.0
  (subst)_ZN13KWindowSystem16unminimizeWindowE{quintptr}b@Base 4.96.0
  _ZN13KWindowSystem17compositingActiveEv@Base 4.96.0
  _ZN13KWindowSystem17desktopToViewportEib@Base 4.96.0
