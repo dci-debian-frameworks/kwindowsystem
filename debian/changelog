@@ -12,6 +12,9 @@ kwindowsystem (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
+  * Rename libkf5windowsystem5-data to libkf5windowsystem-data in line with
+    other frameworks
+    + Breaks+Replace previous package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:45:39 +0100
 

@@ -36,7 +36,8 @@ Description: development files for kwindowsystem
 
 Package: libkf5windowsystem5
 Architecture: any
-Depends: libkf5windowsystem5-data (= ${source:Version}),
+Multi-Arch: same
+Depends: libkf5windowsystem-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Convenience access to certain properties and features of the window manager.
@@ -44,12 +45,13 @@ Description: Convenience access to certain properties and features of the window
  window manager and allows asking the window manager to change them
  using a more high-level interface than the NETWinInfo/NETRootInfo
  low level classes.
-Multi-Arch: same
 
-Package: libkf5windowsystem5-data
+Package: libkf5windowsystem-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5windowsystem5-data
+Replaces: ${F:Breaks}
 Description: Convenience access to certain properties and features of the window manager.
  The class KWindowSystem provides information about the state of the
  window manager and allows asking the window manager to change them
