@@ -51,7 +51,7 @@ Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkf5windowsystem5-data
-Replaces: ${F:Breaks}
+Replaces: libkf5windowsystem5-data
 Description: Convenience access to certain properties and features of the window manager.
  The class KWindowSystem provides information about the state of the
  window manager and allows asking the window manager to change them
