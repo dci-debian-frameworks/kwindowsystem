@@ -45,12 +45,10 @@ Description: Convenience access to certain properties and features of the window
  using a more high-level interface than the NETWinInfo/NETRootInfo
  low level classes.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5windowsystem5-data
 Architecture: all
 Multi-Arch: foreign
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Convenience access to certain properties and features of the window manager.
  The class KWindowSystem provides information about the state of the
