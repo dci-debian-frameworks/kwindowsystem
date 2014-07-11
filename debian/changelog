@@ -1,5 +1,6 @@
-kwindowsystem (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+kwindowsystem (5.0.0-0ubuntu1) utopic; urgency=medium
 
+  [ Jonathan Riddell ]
   * Initial stable upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:43:12 +0200
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 11 Jul 2014 12:25:58 +0200
