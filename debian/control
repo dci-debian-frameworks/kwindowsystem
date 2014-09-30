@@ -12,7 +12,6 @@ Build-Depends: cmake,
                libxrender-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qt5-default,
                qtbase5-dev,
                qttools5-dev,
                qttools5-dev-tools
