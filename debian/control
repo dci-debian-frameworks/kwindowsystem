@@ -24,7 +24,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kwindowsystem.git
 Package: libkf5windowsystem-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5windowsystem5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Depends: libkf5windowsystem5 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends}
 Description: development files for kwindowsystem
  The class KWindowSystem provides information about the state of the
  window manager and allows asking the window manager to change them
@@ -70,5 +72,5 @@ Description: debug symbols for kwindowsystem
  window manager and allows asking the window manager to change them
  using a more high-level interface than the NETWinInfo/NETRootInfo
  low level classes.
-  .
+ .
  Contains debug symbols for kwindowsystem.
