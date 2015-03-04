@@ -18,7 +18,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kwindowsystem.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kwindowsystem.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kwindowsystem.git
 
 Package: libkf5windowsystem-dev
@@ -62,8 +62,8 @@ Description: Convenience access to certain properties and features of the window
  This package contains the translations.
 
 Package: libkf5windowsystem5-dbg
-Priority: extra
 Section: debug
+Priority: extra
 Architecture: any
 Multi-Arch: same
 Depends: libkf5windowsystem5 (= ${binary:Version}), ${misc:Depends}
