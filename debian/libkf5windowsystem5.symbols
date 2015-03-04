@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0+git20150122.0006+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.6.0+git20150202.1356+15.04 amd64 i386
 libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZN10KKeyServer10xEventToQtEP7_XEventPi@Base 4.96.0
  _ZN10KKeyServer11keyQtToModXEiPj@Base 4.96.0
@@ -373,6 +373,7 @@ libKF5WindowSystem.so.5 libkf5windowsystem5 #MINVER#
  _ZNK10NETWinInfo12iconGeometryEv@Base 4.96.0
  _ZNK10NETWinInfo12iconInternalER9NETRArrayI7NETIconEiii@Base 4.96.0
  _ZNK10NETWinInfo12mappingStateEv@Base 4.96.0
+ _ZNK10NETWinInfo12opaqueRegionEv@Base 5.6.0+git20150202.1356+15.04
  _ZNK10NETWinInfo12transientForEv@Base 4.96.0
  _ZNK10NETWinInfo13clientMachineEv@Base 4.96.0
  _ZNK10NETWinInfo13extendedStrutEv@Base 4.96.0
