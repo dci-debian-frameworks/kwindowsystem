@@ -26,7 +26,7 @@ Package: libkf5windowsystem-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5windowsystem5 (= ${binary:Version}),
-         qtbase5-dev,
+         qtbase5-dev (>= 5.2.0),
          ${misc:Depends}
 Description: development files for kwindowsystem
  The class KWindowSystem provides information about the state of the
