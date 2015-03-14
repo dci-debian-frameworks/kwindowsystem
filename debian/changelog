@@ -2,6 +2,7 @@ kwindowsystem (5.8.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.8.0).
   * Update symbols files.
+  * New patch: test_depends_on_stack_pointer
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:21:13 +0100
 
