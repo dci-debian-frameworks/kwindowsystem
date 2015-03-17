@@ -1,8 +1,8 @@
-kwindowsystem (5.8.0-0ubuntu1) UNRELEASED; urgency=medium
+kwindowsystem (5.8.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 20:54:59 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 14:41:59 +0100
 
 kwindowsystem (5.7.0-0ubuntu1) vivid; urgency=medium
 
