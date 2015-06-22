@@ -1,4 +1,10 @@
-kwindowsystem (5.10.0-0ubuntu2) UNRELEASED; urgency=medium
+kwindowsystem (5.10.0-0ubuntu3) wily; urgency=medium
+
+  * Add kubuntu_skip-failed-tests.diff to get it into the archive
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Jun 2015 23:01:00 +0200
+
+kwindowsystem (5.10.0-0ubuntu2) wily; urgency=medium
 
   * Disable test_depends_on_stack_pointer, keep it around incase the
     tests fail again
