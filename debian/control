@@ -42,6 +42,7 @@ Multi-Arch: same
 Depends: libkf5windowsystem-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: qtwayland5
 Description: Convenience access to certain properties and features of the window manager.
  The class KWindowSystem provides information about the state of the
  window manager and allows asking the window manager to change them
