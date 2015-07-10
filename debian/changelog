@@ -1,3 +1,9 @@
+kwindowsystem (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:27:52 -0700
+
 kwindowsystem (5.11.0-1) unstable; urgency=medium
 
   * New upstream release (5.10.0).
