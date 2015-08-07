@@ -6,11 +6,11 @@ kwindowsystem (5.13.0-0ubuntu1) UNRELEASED; urgency=medium
 
 kwindowsystem (5.12.0-0ubuntu1) wily; urgency=medium
 
-  [ Scarlett Clark ]
-  * New upstream release
-
   [ José Manuel Santamaría Lema ]
   * Update installed files.
+
+  [ Scarlett Clark ]
+  * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:10:58 +0200
 
