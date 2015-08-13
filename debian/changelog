@@ -3,6 +3,7 @@ kwindowsystem (5.13.0-1~) UNRELEASED; urgency=medium
   * New upstream release (5.13.0).
   * Update symbols files from buildds logs (5.12.0-1).
   * Update symbols files.
+  * Drop XS-Testsuite field
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 13 Aug 2015 10:37:36 +0200
 
