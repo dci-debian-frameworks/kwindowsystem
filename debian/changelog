@@ -3,6 +3,9 @@ kwindowsystem (5.13.0-2) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Update symbols files.
 
+  [ Felix Geyer ]
+  * Install plugins to libkf5windowsystem5.
+
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Aug 2015 19:32:02 +0200
 
 kwindowsystem (5.13.0-1) unstable; urgency=medium
