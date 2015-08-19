@@ -1,8 +1,8 @@
-kwindowsystem (5.13.0-2~) UNRELEASED; urgency=medium
+kwindowsystem (5.13.0-2) unstable; urgency=medium
 
   * Install missing plugins. (Closes: #796032)
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Aug 2015 21:28:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Aug 2015 22:10:38 +0200
 
 kwindowsystem (5.13.0-1) unstable; urgency=medium
 
