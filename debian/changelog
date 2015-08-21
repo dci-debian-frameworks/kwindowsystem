@@ -3,6 +3,9 @@ kwindowsystem (5.13.0-3~) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Update symbols files.
 
+  [ Alf Gaida ]
+  * Update copyright file. Thanks to Alf Gaida
+
  -- Maximiliano Curia <maxy@debian.org>  Fri, 21 Aug 2015 11:40:24 +0200
 
 kwindowsystem (5.13.0-2) unstable; urgency=medium
