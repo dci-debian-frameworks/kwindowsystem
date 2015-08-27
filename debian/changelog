@@ -1,4 +1,4 @@
-kwindowsystem (5.13.0-3~) UNRELEASED; urgency=medium
+kwindowsystem (5.13.0-3) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Update symbols files.
@@ -6,7 +6,9 @@ kwindowsystem (5.13.0-3~) UNRELEASED; urgency=medium
   [ Alf Gaida ]
   * Update copyright file. Thanks to Alf Gaida
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 21 Aug 2015 11:40:24 +0200
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 18:35:57 +0200
 
 kwindowsystem (5.13.0-2) unstable; urgency=medium
 
