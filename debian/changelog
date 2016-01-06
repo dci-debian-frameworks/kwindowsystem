@@ -1,8 +1,12 @@
-kwindowsystem (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
+kwindowsystem (4:5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:36:08 +0000
+  [ Philip Muškovac ]
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:09:16 +0100
 
 kwindowsystem (5.16.0-1) unstable; urgency=medium
 
