@@ -5,6 +5,8 @@ kwindowsystem (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Philip Muškovac ]
   * New upstream release
+  * Add new symbols to libkf5windowsystem5.symbols and remove the duplicate
+    plugin declarations
 
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:09:16 +0100
 
