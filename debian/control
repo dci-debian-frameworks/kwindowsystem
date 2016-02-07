@@ -61,19 +61,3 @@ Description: Convenience access to certain properties and features of the window
  low level classes.
  .
  This package contains the translations.
-
-Package: libkf5windowsystem5-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5windowsystem5 (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: debug symbols for kwindowsystem
- The class KWindowSystem provides information about the state of the
- window manager and allows asking the window manager to change them
- using a more high-level interface than the NETWinInfo/NETRootInfo
- low level classes.
- .
- Contains debug symbols for kwindowsystem.
