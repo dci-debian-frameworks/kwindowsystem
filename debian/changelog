@@ -1,4 +1,4 @@
-kwindowsystem (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
+kwindowsystem (5.18.0-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release Xenial
