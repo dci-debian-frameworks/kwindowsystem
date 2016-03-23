@@ -1,3 +1,14 @@
+kwindowsystem (5.20.0-1~1.gbp74d310) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @74d3109e4c9fe42248a7dcd77b77e6fd57698b23 **
+
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 23 Mar 2016 23:04:15 +0100
+
 kwindowsystem (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
