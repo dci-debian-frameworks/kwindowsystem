@@ -1,13 +1,14 @@
-kwindowsystem (5.20.0-1~1.gbp74d310) UNRELEASED; urgency=medium
+kwindowsystem (5.20.0-1~2.gbp544296) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @74d3109e4c9fe42248a7dcd77b77e6fd57698b23 **
+  ** SNAPSHOT build @544296eaa89bc816a129d959eaef1a3ed8f28a08 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 23 Mar 2016 23:04:15 +0100
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 17:26:10 +0200
 
 kwindowsystem (5.19.0-1) experimental; urgency=medium
 
