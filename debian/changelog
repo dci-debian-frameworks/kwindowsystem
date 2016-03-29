@@ -1,6 +1,6 @@
-kwindowsystem (5.20.0-1~5.gbp9f566f) UNRELEASED; urgency=medium
+kwindowsystem (5.20.0-1~6.gbp19c8f8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9f566f0cce52d88cf997c515783104329b160947 **
+  ** SNAPSHOT build @19c8f885b1957966ed98918eb969dd80a362f1db **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -10,8 +10,9 @@ kwindowsystem (5.20.0-1~5.gbp9f566f) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 13:12:44 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 23:21:18 +0200
 
 kwindowsystem (5.19.0-1) experimental; urgency=medium
 
