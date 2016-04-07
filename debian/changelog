@@ -1,5 +1,8 @@
-kwindowsystem (5.20.0-1~9.gbp7446a3) UNRELEASED; urgency=medium
+kwindowsystem (5.20.0-1~10.gbp2d2e87) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @2d2e871907771d305c9ebebacc935ef62aa5eaaf **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @7446a362d212aa6003bdeb2e6868174c0ce4a4f2 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +17,14 @@ kwindowsystem (5.20.0-1~9.gbp7446a3) UNRELEASED; urgency=medium
   * UNRELEASED
   * Update acc test script
   * UNRELEASED
+  * Remove xephyr hack
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:46:23 +0200
+  [ Automatic packaging ]
+  * Update symbols files.
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 07 Apr 2016 12:37:57 +0200
 
 kwindowsystem (5.19.0-1) experimental; urgency=medium
 
