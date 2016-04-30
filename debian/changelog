@@ -1,6 +1,6 @@
-kwindowsystem (5.21.0-1~1.gbpf2b46b) UNRELEASED; urgency=medium
+kwindowsystem (5.21.0-1~2.gbp0aa86f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f2b46b2bbbf1d116e5f2117b4695644d9c536474 **
+  ** SNAPSHOT build @0aa86f555595172edfb341ceabdc719f40cc15e2 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @7446a362d212aa6003bdeb2e6868174c0ce4a4f2 **
@@ -21,6 +21,7 @@ kwindowsystem (5.21.0-1~1.gbpf2b46b) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update symbols files.
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * uscan no longer supports more than one main upstream tarball being listed
@@ -30,7 +31,7 @@ kwindowsystem (5.21.0-1~1.gbpf2b46b) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:46:23 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:05:38 +0200
 
 kwindowsystem (5.19.0-1) experimental; urgency=medium
 
