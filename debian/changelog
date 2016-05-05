@@ -1,3 +1,11 @@
+kwindowsystem (5.21.0-2~1.gbp124b37) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @124b373617f074d3eb8996173097807e6c3526cd **
+
+  * Update symbols files from buildds logs (5.21.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 05 May 2016 15:46:21 +0200
+
 kwindowsystem (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
