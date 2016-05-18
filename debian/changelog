@@ -1,14 +1,12 @@
-kwindowsystem (5.22.0-1~1.gbp1b5a1d) UNRELEASED; urgency=medium
+kwindowsystem (5.22.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @1b5a1df0c1a6d258175c32c14b0840ebd3b854fa **
-
+  [ Automatic packaging ]
   * Update symbols files from buildds logs (5.21.0-1).
   * Update symbols files.
-  * Update changelog for 5.21.0-1~3.gbpa1cfc0 release
   * Update build-deps and deps with the info from cmake
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 16 May 2016 00:28:27 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 May 2016 00:19:06 +0200
 
 kwindowsystem (5.21.0-1) experimental; urgency=medium
 
