@@ -1,3 +1,11 @@
+kwindowsystem (5.23.0-1~2.gbpf1435b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f1435bd2ac3a31a66a11f70e59654e681a8c8aaf **
+
+  * Update symbols files.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 17 Jun 2016 21:29:56 +0200
+
 kwindowsystem (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
