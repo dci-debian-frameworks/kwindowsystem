@@ -1,11 +1,10 @@
-kwindowsystem (5.23.0-1~1.gbp184c3e) UNRELEASED; urgency=medium
+kwindowsystem (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @184c3e6b3c7144d6ec2aee788d73347e349d4d8c **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.22.0-1).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 21:54:59 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:24:07 +0200
 
 kwindowsystem (5.22.0-1) unstable; urgency=medium
 
