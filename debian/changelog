@@ -1,16 +1,17 @@
-kwindowsystem (5.23.0-1~3.gbp604496) UNRELEASED; urgency=medium
+kwindowsystem (5.24.0-1~1.gbpe649fd) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @60449696760e3bdf7308e138b2e47f84308c4dee **
+  ** SNAPSHOT build @e649fd8bc982c7781d6b0f7764b517422d34702b **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @f1435bd2ac3a31a66a11f70e59654e681a8c8aaf **
 
   * Update symbols files.
+  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Update changelog for 5.23.0-1 release
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 18 Jun 2016 16:18:24 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 16:46:11 +0200
 
 kwindowsystem (5.23.0-1) unstable; urgency=medium
 
