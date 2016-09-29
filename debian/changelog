@@ -1,11 +1,13 @@
-kwindowsystem (5.26.0-1~1.gbp9bb1e5) UNRELEASED; urgency=medium
+kwindowsystem (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @9bb1e5f5893fe5986b3fc33c84d946ae0f52a543 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.25.0-1).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 14:58:35 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:57:02 +0200
 
 kwindowsystem (5.25.0-1) unstable; urgency=medium
 
