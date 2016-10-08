@@ -1,10 +1,12 @@
-kwindowsystem (5.26.0-2~1.gbp3199b1) UNRELEASED; urgency=medium
+kwindowsystem (5.27.0-1~1.gbpbb70f3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3199b12ef815e189141b96eaf490e7c8803af356 **
+  ** SNAPSHOT build @bb70f3c47f85740256ff381642061d27e1e3de8f **
 
   * Update symbols files from buildds logs (5.26.0-1).
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 29 Sep 2016 17:46:43 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 16:46:39 +0200
 
 kwindowsystem (5.26.0-1) unstable; urgency=medium
 
