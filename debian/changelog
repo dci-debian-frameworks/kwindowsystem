@@ -1,3 +1,12 @@
+kwindowsystem (5.28.0-1~1.gbpc98fe9) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c98fe9127c610f41d56f5f3bf813f027d2ff22ef **
+
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.27.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 16:46:44 +0100
+
 kwindowsystem (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
