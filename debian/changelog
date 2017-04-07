@@ -1,3 +1,11 @@
+kwindowsystem (5.28.0-2~) UNRELEASED; urgency=medium
+
+  * Apply "Allow Tab as being modified by Shift" (4fe25b7)
+    Add upstream patch as: Allow-Tab-as-being-modified-by-Shift.patch
+    This fixes KDE#368581, and is related to #794501
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 07 Apr 2017 18:38:00 +0200
+
 kwindowsystem (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
