@@ -1,3 +1,9 @@
+kwindowsystem (5.35.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.35.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:38:12 +0200
+
 kwindowsystem (5.28.0-2) unstable; urgency=medium
 
   * Apply "Allow Tab as being modified by Shift" (4fe25b7)
