@@ -5,7 +5,10 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
+               graphviz,
+               libqt5sql5-sqlite,
                libqt5x11extras5-dev (>= 5.7.0~),
                libx11-dev,
                libxcb-keysyms1-dev,
@@ -15,11 +18,25 @@ Build-Depends: cmake (>= 3.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
                qttools5-dev (>= 5.4),
-               qttools5-dev-tools (>= 5.4)
+               qttools5-dev-tools (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kwindowsystem.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kwindowsystem.git
+
+Package: libkf5windowsystem-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Breaks: libkf5windowsystem5-data
+Replaces: libkf5windowsystem5-data
+Description: Convenience access to certain properties and features of the window manager
+ The class KWindowSystem provides information about the state of the
+ window manager and allows asking the window manager to change them
+ using a more high-level interface than the NETWinInfo/NETRootInfo
+ low level classes.
+ .
+ This package contains the translations.
 
 Package: libkf5windowsystem-dev
 Section: libdevel
@@ -27,7 +44,8 @@ Architecture: any
 Depends: libkf5windowsystem5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
+Recommends: libkf5windowsystem-doc (= ${source:Version})
 Description: development files for kwindowsystem
  The class KWindowSystem provides information about the state of the
  window manager and allows asking the window manager to change them
@@ -41,14 +59,26 @@ Breaks: libkf5crash-dev (<< 5.37),
         libkf5notifications-dev (<< 5.37),
         libkf5textwidgets-dev (<< 5.37),
         libkf5wallet-dev (<< 5.37),
-        libkf5xmlgui-dev (<< 5.37)
+        libkf5xmlgui-dev (<< 5.37),
+
+Package: libkf5windowsystem-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Convenience access to certain properties and features of the window manager (documentation)
+ The class KWindowSystem provides information about the state of the
+ window manager and allows asking the window manager to change them
+ using a more high-level interface than the NETWinInfo/NETRootInfo
+ low level classes.
+ .
+ This package contains the qch documentation files.
 
 Package: libkf5windowsystem5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5windowsystem-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: Convenience access to certain properties and features of the window manager
  The class KWindowSystem provides information about the state of the
  window manager and allows asking the window manager to change them
@@ -71,18 +101,4 @@ Breaks: kinit (<< 5.37),
         libkf5xmlgui5 (<< 5.37),
         plasma-framework (<< 5.37),
         qml-module-org-kde-kquickcontrols (<< 5.37),
-        qml-module-org-kde-kwindowsystem (<< 5.37)
-
-Package: libkf5windowsystem-data
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}
-Breaks: libkf5windowsystem5-data
-Replaces: libkf5windowsystem5-data
-Description: Convenience access to certain properties and features of the window manager
- The class KWindowSystem provides information about the state of the
- window manager and allows asking the window manager to change them
- using a more high-level interface than the NETWinInfo/NETRootInfo
- low level classes.
- .
- This package contains the translations.
+        qml-module-org-kde-kwindowsystem (<< 5.37),
