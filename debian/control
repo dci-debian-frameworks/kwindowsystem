@@ -72,6 +72,7 @@ Description: Convenience access to certain properties and features of the window
  low level classes.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5windowsystem5
 Architecture: any
