@@ -287,18 +287,6 @@ kwindowsystem (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:59 +0100
 
-kwindowsystem (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-  * Add new symbols to libkf5windowsystem5.symbols and remove the duplicate
-    plugin declarations
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:09:16 +0100
-
 kwindowsystem (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -530,7 +518,7 @@ kwindowsystem (5.2.0-0ubuntu1) utopic; urgency=medium
 kwindowsystem (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
-  * Update copyright to match licensing to source, + minor cleanup. 
+  * Update copyright to match licensing to source, + minor cleanup.
 
   [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
