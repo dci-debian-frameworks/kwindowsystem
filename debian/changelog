@@ -1,8 +1,11 @@
-kwindowsystem (5.41.0-1~) UNRELEASED; urgency=medium
+kwindowsystem (5.41.0-1~1) UNRELEASED; urgency=medium
 
   * New upstream release (5.41.0).
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
+  * Fix FTCBFS: Annotate libqt5sql5-sqlite with :native. (Closes: 882783)
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Dec 2017 08:47:56 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Dec 2017 09:13:27 -0300
 
 kwindowsystem (5.41.0-0neon) xenial; urgency=medium
 
